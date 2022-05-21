@@ -21,7 +21,7 @@ public class CreateCardNegativeTest {
         return new Object[][]{
                 {"",false}, //Empty
                 {"QW",false},//<2
-                {"QWQWWQQQQQQQQQQQQQQ",false},//>18
+                {"QWQWWQQQQQQQQQQQQQQQ",false},//>19
                 {"WWQQ QQQQQQ QQQQ",false},//>2 SPACE
                 {" QWQWWQQQQQ",false},//Start with SPACE
                 {"QWQWWQQQQQ ",false},//END with SPACE

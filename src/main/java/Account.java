@@ -12,7 +12,7 @@ public class Account {
         if (name == null) {
             return false;
         } else {
-            if (name.length() <= 3 || name.length() >= 19) {
+            if (name.length() < 3 || name.length() > 19) {
                 return false;
             } else {
                 if (checkNameToSpace() > 1) {
